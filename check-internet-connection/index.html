@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Check Internet Connection Using JavaScript | Learning by CodingNepal
+    </title>
+    <!-- main style -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="check_internet">
+        <div class="notification">
+          <div class="icon">
+            <img src="./assets/icons/no-signal.png" alt="no-signal" />
+          </div>
+          <div class="details">
+            <h2>Lost Connection</h2>
+            <p>
+              Your network is unavailable. We will attempt to reconnect your in
+              <span id="time">10</span> seconds.
+            </p>
+            <button id="reconnect">Reconnect Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Check Your Internet Connecting</h1>
+        <p>Turn off your internet to see offline notification!</p>
+      </div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
