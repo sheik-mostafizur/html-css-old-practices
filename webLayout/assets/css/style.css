@@ -1,0 +1,50 @@
+@import url("./index.css");
+@import url("./card.css");
+/* fonts google */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap");
+/* font-family: 'Montserrat', sans-serif; */
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #fac608 #ffffff;
+}
+/* scroll bar style without firefox */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #fac608;
+  border-radius: 10px;
+}
+/* reset all   */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+button:focus {
+  outline: 3px solid #baddfd;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+p {
+  color: #000000;
+}
+li {
+  list-style: none;
+}
+/* color  */
+:root {
+  --white: #ffffff;
+  --black-1: #90989e;
+  --primary: #0d6efd;
+}

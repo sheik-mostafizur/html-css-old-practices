@@ -1,0 +1,63 @@
+main section .card {
+  padding: 1rem 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  transition: 0.5s;
+}
+main section .card .card-title {
+  background: #ddd;
+  padding: 1rem;
+  margin: -1rem -0.5rem 0 -0.5rem;
+  color: #616060;
+}
+main section .card .card-title h2 {
+  font-weight: normal;
+}
+main section .card .card-image {
+  border: 2px solid var(--black-1);
+}
+main section .copy-view {
+  margin: 1rem 0;
+}
+main section .copy-view .copy {
+  text-align: right;
+}
+main section .copy-view .copy button {
+  background: var(--primary);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+main section .copy-view .category {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: -1rem auto;
+}
+main section .copy-view .category button {
+  /* background: #6c757d; */
+  background: var(--black-1);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+main section .copy-view .category button.active {
+  background-color: var(--primary);
+}
+main section section {
+  overflow: auto;
+  max-height: 400px;
+  padding: 1rem 0.5rem;
+  background-color: aliceblue;
+  border: 2px solid #ddd;
+  font-size: 14px;
+}

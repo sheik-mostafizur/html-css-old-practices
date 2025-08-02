@@ -1,0 +1,102 @@
+@media (max-width: 991px){
+    /* header */
+    header .bar-color{
+        color: #fff;
+        border: 2px solid #fff;
+        padding: 5px 8px;
+        border-radius: 2px;
+    }
+    /* slider area */
+    .slider-img img {
+        width: 300px !important;
+        height: 300px !important;
+        border-radius: 50%;
+      }
+      .slider-con {
+        color: #fff;
+        padding-right: 5px !important;
+      }
+      
+    /* meddile section */
+    .meddile-section .m-margin-top{
+        margin-top: 25px;
+    }
+    .meddile-section .md-margin{
+        margin-bottom: 25px;
+    }
+    .md-margin-top{
+        margin-top: 0 !important;
+    }
+
+    /* footer area */
+    .f-margin-top{
+        margin-top: 25px;
+    }
+
+}
+
+@media (max-width : 767px){
+    /* heaer area  */
+    header .navbar-nav {
+        display: flex;
+        flex-direction: row;
+    }
+    header ul li{
+        display: inline-block !important;
+    }
+    header ul li a{
+        display: block;
+        font-size: 12px;
+        padding: 20px 10px !important;
+    }
+
+    /* slider area  */
+    header .header-slider{
+        padding-top: 0 !important;
+    }
+    .header-slider .slider-con {
+        padding: 0 50px !important;
+    }
+    .header-slider .slider-con h1{
+        font-size: 30px;
+    }
+    .header-slider .slider-con p,
+    .header-slider .slider-con a{
+        font-size: 10px;
+    }
+    header .header-slider img{
+        height: 200px;
+        width: 200px;
+        margin: 30px auto;
+        display: block;
+    }
+    .sm-margin-top{
+        margin-top: 25px !important;
+    }
+    .footer-last .footer-text{
+        text-align: center !important;
+        margin-top: 10px;
+    }
+}
+@media (max-width : 527px){
+    header .navbar-nav {
+        display: flex;
+        flex-direction: column ;
+    }
+    header ul li{
+        display: block !important;
+    }
+    header ul li a{
+        display: block;
+        font-size: 12px;
+        padding: 8px 10px !important;
+    }
+    /* wol carosul */
+    .owl-next{
+        right: -20px;
+      }
+      .owl-prev {
+          left: -20px;
+      }
+      
+}

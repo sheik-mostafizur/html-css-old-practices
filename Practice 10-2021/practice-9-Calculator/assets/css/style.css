@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #5e6b7e;
+}
+.calculator {
+  width: 300px;
+  height: 390px;
+  background: #f2f3f7;
+  margin: 50px auto 0;
+  border-radius: 20px;
+  padding: 12px 10px 12px 10px;
+  transition: 0.5s;
+}
+.calculator:hover {
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.calculator h1 {
+  text-align: right;
+  padding: 5px;
+  margin: 5px 8px;
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-family: lato;
+  font-weight: 500;
+  color: #2f2f2f;
+  border: 1px solid #dfdfe2;
+}
+button {
+  height: 50px;
+  width: 50px;
+  font-size: 25px;
+  padding: 5px;
+  margin: 5px 8px;
+  background: white;
+  border: none;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-family: lato;
+  font-weight: bold;
+  transition: 0.3s;
+}
+button:hover {
+  background: #ddd;
+}
+button#ac {
+  color: #61656d;
+}
+button#pdn {
+  color: #61656d;
+  font-size: 20px;
+}
+button#vagshes {
+  color: #61656d;
+  font-size: 20px;
+}
+
+button#vag {
+  color: #f38714;
+}
+button#into {
+  color: #f38714;
+  font-size: 18px;
+}
+button#minus {
+  color: #f38714;
+  font-size: 30px;
+}
+button#plus {
+  color: #f38714;
+}
